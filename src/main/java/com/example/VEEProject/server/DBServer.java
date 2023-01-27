@@ -1,7 +1,7 @@
 package com.example.VEEProject.server;
 
-import com.example.VEEProject.pojo.Project;
-import com.example.VEEProject.pojo.ProjectRepository;
+import com.example.VEEProject.mapper.Project;
+import com.example.VEEProject.mapper.ProjectRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Optional;
-import java.util.Scanner;
 
 @SpringBootApplication
 @RestController
